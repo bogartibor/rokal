@@ -1,0 +1,117 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-image:url(projects-repairs-house.jpg);
+	padding: 15px;
+	color: #000;
+	width: 800px;
+	background-color:transparent;
+	margin: 0 auto;
+	overflow-y: scroll;
+}
+header{
+	background-color:rgba(255, 255, 255, 0.75);
+	padding:20px;
+}
+.container {
+	background-color:#EEE;
+	padding-bottom:5px;
+}
+ul{
+	padding:10px 10px 20px 30px;
+	border:thin solid grey;
+	background-color:#FFF;
+}
+ul.intro_list li {
+	padding-bottom:10px;
+}
+
+
+ul.nav {
+	border-width:thin;
+	border-style:solid;
+	border-color:#999;
+	
+	list-style: none;
+	height:33px;
+	background-color:#FFF;
+	text-align:center;
+	margin: 0px;
+	padding:0px;
+}
+ul.nav li {
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	border-bottom-color:#999;
+	
+	background-color:#FFF;
+	float:left;
+}
+ul.nav li.mobil {
+	position:relative;
+	background-color:#063;
+	float:right;
+	padding: 5px 10px 5px 10px;
+	display: block;
+	height:23px;
+	width:auto;
+	text-decoration: none;
+	color:#FFF;
+}
+
+ul.nav li.mobil img{
+	float:left;
+}
+ul.nav li.mobil div {
+	float:right;
+	padding-left:10px;
+}
+
+ul.nav a, ul.nav a:visited {
+	padding: 5px 15px 5px 15px;
+	display: block;
+	width:auto;
+	text-decoration: none;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus, ul.nav a.current { 
+	background-color:#063;
+	color: #FFF;
+}
+
+a img {
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+.list_headline{
+	padding-left:10px;	
+}
+.sidetext{
+	position:absolute;
+	left:inherit;
+	width:310px;
+	padding:0px 15px;	
+}
+#googlemap{
+	padding:15px;
+	position:relative;
+	left:288px;
+}
+.border {
+	margin:15px ;
+	border: thin solid grey;
+	background-color:#FFF; 	
+}
+.para {
+	padding: 0px 15px 0px 15px;	
+}

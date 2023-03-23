@@ -1,69 +1,92 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122679897-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-MRY6Y09X0D"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-122679897-1');
-</script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ROKAL – Ing. Mária Bogárová – rozpočty a kalkulácie stavebných prác, stavebný dozor</title>
-<link href="RokalCSS.css" rel="stylesheet" type="text/css" />
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      gtag("config", "G-MRY6Y09X0D");
+    </script>
+  </head>
 
-  ga('create', 'UA-68991859-1', 'auto');
-  ga('send', 'pageview');
+  <body>
+    <header>
+      ROKAL – <strong>Ing. Mária Bogárová</strong> – rozpočty a kalkulácie
+      stavebných prác, stavebný dozor
+    </header>
+    <div class="container">
+      <ul class="nav">
+        <li><a href="#" class="current">Domov</a></li>
+        <li><a href="ponuka.html">Ponuka služieb</a></li>
+        <li><a href="referencie.html">Referencie</a></li>
+        <li><a href="cena.html">Cena</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li class="mobil">
+          <img src="Mobile-icon-web2-white.png" width="15" height="25" />
+          <div>+421 904 286 663</div>
+        </li>
+      </ul>
 
-</script>
-</head>
+      <h3 class="list_headline">Potrebujete:</h3>
+      <ul class="intro_list">
+        <li>
+          <strong>rozpočet</strong> - celkové náklady stavby za stavebné práce
+          (súpis jednotlivých prác a&nbsp;dodávok vyčíslených podľa cenníka
+          stavebných prác po položkách) – podklad na plánovanie investícií,
+          plánovanie stavby, na získanie investícií, dotácií, podklad
+          k&nbsp;hypotekárnemu úveru, vo fáze realizácie - podklad pre
+          zostavovanie súpisov vykonaných prác v&nbsp;dohodnutých časových
+          obdobiach pre fakturáciu
+        </li>
+        <li>
+          <strong>výkaz výmer, zadanie</strong> - množstvo jednotlivých prác
+          a&nbsp;dodávok vyčíslených podľa cenníka stavebných prác po položkách
+          - podklad pre investora, stavebníka alebo generálneho dodávateľa
+          stavby na získanie cenových ponúk,
+        </li>
+        <li>
+          <strong>kalkuláciu</strong> - prehľad nákladov stavby celkových za
+          celú stavbu alebo po položkách (materiál, mzdy, stroje, ostatné priame
+          náklady, výrobná réžia, správna réžia, zisk) – podklad pre sledovanie
+          nákladov a hospodárnosť realizovanej stavby, podklad pre vyhodnotenie
+          nákladov stavby po ukončení
+        </li>
+        <li>
+          <strong>stavebný alebo technický dozor</strong> - vedenie, sledovanie,
+          kontrola uskutočňovania stavieb v&nbsp;súlade s&nbsp;projektovou
+          dokumentáciou, s technickými požiadavkami na výstavbu,
+          s&nbsp;technologickými predpismi, s&nbsp;predpismi o&nbsp;bezpečnosti
+          a&nbsp;ochrane zdravia pri práci, vplyv na odstránenie závad, ktoré
+          zistí na stavbe, kontrola a&nbsp;odsúhlasenie fakturácie vykonaných
+          prác
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js";
 
-<body>
-<header>ROKAL – <strong>Ing. Mária Bogárová</strong> –   rozpočty a kalkulácie stavebných prác, stavebný dozor</header>
-<div class="container">
-<ul class="nav">
-      <li><a href="#" class="current">Domov</a></li>
-      <li><a href="ponuka.html">Ponuka služieb</a></li>
-      <li><a href="referencie.html">Referencie</a></li>
-      <li><a href="cena.html">Cena</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
-      <li class="mobil"><img src="Mobile-icon-web2-white.png" width="15" height="25" />
-      <div>+421 904 286 663</div></li>
-    </ul>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDQdDE2manCVPUCHujU7H4oF-LHHttzBWA",
+      authDomain: "rokal-77ae8.firebaseapp.com",
+      projectId: "rokal-77ae8",
+      storageBucket: "rokal-77ae8.appspot.com",
+      messagingSenderId: "748539132105",
+      appId: "1:748539132105:web:a27661a1245158e675f518",
+      measurementId: "G-MRY6Y09X0D",
+    };
 
-<h3 class="list_headline">Potrebujete:</h3>
-<UL class="intro_list">
-  <LI><strong>rozpočet</strong> - celkové náklady stavby za stavebné práce (súpis  	jednotlivých prác a&nbsp;dodávok vyčíslených podľa cenníka  	stavebných prác  po položkách) – podklad na plánovanie  	investícií, plánovanie stavby, na získanie investícií,  	dotácií, podklad k&nbsp;hypotekárnemu úveru, vo fáze realizácie  	- podklad pre zostavovanie súpisov vykonaných prác v&nbsp;dohodnutých  	časových obdobiach pre fakturáciu</li>
-   <LI> <strong>výkaz výmer, zadanie</strong> - množstvo jednotlivých prác a&nbsp;dodávok vyčíslených podľa  	cenníka stavebných prác  po položkách -  podklad pre investora,  	stavebníka alebo generálneho dodávateľa stavby na získanie  	cenových ponúk,</li>
-   <LI> <strong>kalkuláciu</strong> - prehľad nákladov stavby celkových za celú stavbu  	alebo po položkách (materiál, mzdy, stroje, ostatné priame  	náklady, výrobná réžia, správna réžia, zisk) – podklad pre  	sledovanie nákladov a hospodárnosť realizovanej stavby, podklad  	pre vyhodnotenie nákladov stavby po ukončení</li>
-  <LI>
-    <strong>stavebný alebo technický dozor</strong> - vedenie, sledovanie, kontrola  uskutočňovania  	stavieb v&nbsp;súlade s&nbsp;projektovou dokumentáciou, s   	technickými požiadavkami na výstavbu, s&nbsp;technologickými  	predpismi, s&nbsp;predpismi o&nbsp;bezpečnosti a&nbsp;ochrane  	zdravia pri práci, vplyv na odstránenie závad, ktoré zistí na  	stavbe, kontrola a&nbsp;odsúhlasenie fakturácie vykonaných prác</li>
-</UL>
-</div>
-</body>
-<script type="module">
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js";
-
-  const firebaseConfig = {
-    apiKey: "AIzaSyDQdDE2manCVPUCHujU7H4oF-LHHttzBWA",
-    authDomain: "rokal-77ae8.firebaseapp.com",
-    projectId: "rokal-77ae8",
-    storageBucket: "rokal-77ae8.appspot.com",
-    messagingSenderId: "748539132105",
-    appId: "1:748539132105:web:a27661a1245158e675f518",
-    measurementId: "G-MRY6Y09X0D"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </html>
